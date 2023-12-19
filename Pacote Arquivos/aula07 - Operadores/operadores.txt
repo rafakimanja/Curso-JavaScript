@@ -1,0 +1,60 @@
+
+Operadores aritiméticos: 
+
++ : soma
+- : subtração
+/ : divisão
+* : multiplicação
+% : resto da divisão
+** : potenciação
+
+
+Atribuições:
+
+= : recebe valor
++= : recebe com soma
+-= : recebe com subtração
+*= : ...
+/=
+**=
+%=
+
+
+Incremento:
+
+variavel++ : variavel recebe +1
+variavel--: variavel recebe -1
+
+
+Relacionais:
+
+> : maior que
+< : menor que
+>= : maior ou igual que
+<= : menor ou igual que
+== : igual
+!= : diferente
+
+    Relacionais de Identidade:
+
+    === : igualdade de Identidade
+    operador que analisa o valor e o tipo de duas variáveis
+    !== : desigual restrito
+
+
+
+Lógicos:
+
+! : negação
+&& : E lógico ou conjunção
+|| : OU lógico ou disjunção
+
+
+Ternário:
+
+é um operador que junta 3 operandos
+
+TESTE "?" TRUE ":" FALSE
+
+tesmos um teste lógico e o resultado se der True ou False 
+separados pelo sinal de "?" e ":" 

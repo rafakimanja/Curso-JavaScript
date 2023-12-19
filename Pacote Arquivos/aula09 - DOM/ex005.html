@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(77, 168, 204);
+            font: normal 18pt Arial;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Introdução ao DOM</h1>
+    <P>Aqui vai o resultado</P>
+    <p>Usando o <strong>DOM</strong> em JavaScript</p>
+    <div id="msg">Clique em mim</div>
+    <script>
+
+        let p1 = document.getElementsByTagName('p')[0] // podemos escolher qual colocando entre colchetes o numero do elemento
+        p1.style.color = 'red'
+
+        /*
+        let d = document.getElementById('msg')
+        d.style.background = 'green'
+        */
+
+        let d = document.querySelector('div#msg')
+        d.style.color = 'green'
+
+    </script>
+</body>
+</html>

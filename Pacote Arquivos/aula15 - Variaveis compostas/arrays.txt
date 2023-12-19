@@ -1,0 +1,25 @@
+
+para declarar um array em JS:
+let nome = []
+
+let lista = [1, 14, 83]
+
+
+para adicionar valores:
+lista[3] = 9 -> especificando a posição do array
+lista.push(9) -> adicionar um valor no final da array
+
+
+lista.length -> diz quando elementos tem no meu array
+
+lista.sort() -> ele ordena os elementos em ordem crescente
+
+
+Também é possível usar o 'in' com arrays:
+for(let i in lista){
+    console.log(lista[i])
+}
+
+
+Busca de elementos num array:
+lista.indexOf(elemento) (retorna -1 se não existir)

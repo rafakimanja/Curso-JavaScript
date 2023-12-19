@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgba(105, 105, 173);
+            color: white;
+            font: normal 20pt Arial;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>Frase clássica de programador</p>
+    <script>
+        let n1 = prompt('Digite um numero: ') // o comando prompt sempre retorna uma String
+        let n2 = prompt('Digite outro numero: ')
+        let s = n1 + n2 // fazendo este operação, o JS irá concatenar e não somar os numeros
+
+        /*
+        Para fazer uma operação numérica precisamos converter a
+        string para um numero, pra isso existem funções como:
+        parseInt(num)
+        parseFloat(num)
+        Number(num) -> ele identifica e converte automaticamente 
+        pro tido de dado Int ou Float
+        */
+
+        // s = parseInt(n1) + parseInt(n2)
+
+        s = Number(n1) + Number(n2)
+
+        // alert('A soma de '+n1+' + '+n2+' é: '+s) -> com concatenação
+
+        alert(`A soma de ${n1} + ${n2} é: ${s}`) // template Strings
+    </script>
+</body>
+</html>

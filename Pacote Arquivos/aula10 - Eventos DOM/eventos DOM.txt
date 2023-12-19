@@ -1,0 +1,28 @@
+eventos DOM são ações ou eventos própriamente ditos,
+que pode ocorrer em alguns dos elementos DOM no seu 
+documento. O mais comum deles é o evento de mouse:
+- mouseenter -> quanto o mouse entrou na área do DOM 
+- mousemove -> o mouse está se movendo dentro da área
+- mousedown -> quando se clica o mouse
+- mouseup -> quando se solta o clique do mouse
+- click -> clicar e soltar
+- mouseout -> quando o mouse sai da área do DOM 
+
+
+com isso podemos criar Funções JS que serão executadas a 
+partir da ação de algum evento
+
+Estrutura de Funções em JS:
+
+function nome_da_função(parâmetro ou não){
+
+    código...
+}
+
+O JS também possuí funções anônimas, que são funções sem nome
+
+Podemos acionar eventos de duas formas, direto no HTML ou adicionar um "ouvidor" do JS
+ex: addEventListener('nome_evento', nome_função)
+
+
+dica: para ver erros no código usar o Inspecionar da página, pois ele indica o erro 

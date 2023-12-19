@@ -1,0 +1,24 @@
+Para fazer uma operação numérica precisamos converter a string para um numero, 
+pra isso existem funções como:
+    - parseInt(num)
+    - parseFloat(num)
+    - Number(num) -> ele identifica e converte automaticamente 
+pro tido de dado Int ou Float
+
+Para converter de um numero para uma String podemos usar o
+String(num)
+
+O JavaScript possui uma formatação que podemos colocar variaveis dentro do campo de 
+string, para isso precisamos usar crase " ` " em vez de aspas " ' ". Junto com o 
+sinal de "$" e "{}"
+
+ex: `Ola ${nome}, seja bem vindo ao sistema`
+
+Funções para formatação de String:
+- palavra.lenght -> tamanho da String
+- palavra.toUpperCase() -> tudo Maiusculo
+- palavra.toLowerCase() - tudo Minusculo
+
+Funções para formatação de Números:
+- toFixed() -> dizer a quantidade de casas decimais 
+- toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) -> aplica formatação de valor monetário

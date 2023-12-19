@@ -1,0 +1,33 @@
+Document Object Model -> DOM
+
+DOM ele só roda com o JavaScript no navegador, e ele é 
+um conjunto de objetos que estão incorporados ao documento
+do seu site, no caso o HTML.
+
+Árvore DOM:
+
+            window
+location | document | history
+               |
+              html
+        head        body
+    tags html do    tags html do
+        head            body
+
+
+Cada nó da árvore é um Elemento, onde é possivel acessá-lo no
+JavaScript usando métodos de acesso
+
+Métodos de Acesso:
+
+- Marca ou Tag: getElementsByTagName('nome_da_tag')
+    ex: body, H1, p, ...
+- ID: getElementById('nome_id')
+- Nome: getElementsByName('nome')
+- Classe: getElementsByClassName('nome_classe)
+- Seletor: querySelector() | querySelectorAll()
+
+se na comando está escrito "Elements", é necessário usar o 
+"[numero]" do elemento, caso contrário, todos serão modificados
+
+dica: para ID = "#", para Classe = "."
